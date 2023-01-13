@@ -1,0 +1,44 @@
+.Topic{
+    margin-top: 7cm;
+    font-size: 500%;
+    text-align: center;
+    color: rgb(37, 63, 179);
+}
+
+.Para{
+    text-align: center;
+    color: rgb(69, 124, 121);
+}
+
+.Paral{
+    text-align: center;
+    color: rgb(69, 124, 121);
+    margin-bottom: 5cm;
+}
+
+.navb{
+    color: rgb(255, 255, 255);
+    font-style:oblique;
+    font-size: 125%;
+    text-align: center;
+}
+
+.navc{
+    background-color: black;
+}
+
+.link:hover{
+  color: rgb(105, 121, 158);
+}
+
+.navbo{
+    color: black;
+    text-align: center;
+}
+
+.borderh{
+    border-color: aqua;
+    border-style: groove;
+   
+    
+}
