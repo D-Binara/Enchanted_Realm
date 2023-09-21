@@ -1,4 +1,4 @@
-class Header extends HTMLElement {
+class Footer extends HTMLElement {
     constructor() {
         super();
     }
@@ -15,9 +15,8 @@ class Header extends HTMLElement {
                 </ul>
                 <nav className="text-center text-muted">© 2022 Company, Inc</nav>
             </footer>
+        ;
     }
 }
 
-
-
-customElements.define('header-component', Header);
+customElements.define('footer-component', Footer);
