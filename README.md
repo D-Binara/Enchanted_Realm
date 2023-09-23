@@ -1,2 +1,2 @@
-# tamplate1
-template of website
+# Tamplate
+This is a very simple website template.
