@@ -1,10 +1,7 @@
 class Footer extends HTMLElement {
-    constructor() {
-        super();
-    }
 
     connectedCallback() {
-        this.innerHTML =
+        this.innerHTML =`
             <footer className="py-3 my-4">
                 <ul className="nav justify-content-center border-bottom pb-3 mb-3  navbar-dark bg-dark">
                     <li className="nav-item"><a href="Home.html" className="nav-link px-2 text-muted">Home</a></li>
@@ -15,7 +12,7 @@ class Footer extends HTMLElement {
                 </ul>
                 <nav className="text-center text-muted">© 2022 Company, Inc</nav>
             </footer>
-        ;
+        `;
     }
 }
 
