@@ -16,31 +16,14 @@
     margin-bottom: 5cm;
 }
 
-.navb{
-    color: rgb(255, 255, 255);
-    font-style:oblique;
-    font-size: 125%;
-    text-align: center;
-}
-
-.navc{
-    background-color: black;
-}
-
 .link:hover{
   color: rgb(105, 121, 158);
-}
-
-.navbo{
-    color: black;
-    text-align: center;
 }
 
 .borderh{
     border-color: aqua;
     border-style: groove;
 }
-
 
 .Highlight:hover{
     color: rgb(26, 104, 173);
@@ -55,7 +38,5 @@
     color: black;
 }
 
-
-/*footer*/
 
 
