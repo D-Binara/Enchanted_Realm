@@ -10,7 +10,7 @@ class Header extends HTMLElement {
                         aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="#">Magical World</a>
+                <a class="navbar-brand" href="#">Enchanted Realm</a>
             
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -18,13 +18,13 @@ class Header extends HTMLElement {
                             <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Link.html">Store</a>
+                            <a class="nav-link" href="Link.html">Explore</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="Link2.html">Other Details</a>
+                            <a class="nav-link " href="Link2.html">Spells & Potions</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="Link.html">FAQs</a>
+                            <a class="nav-link " href="Link.html">Creatures</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link " href="Link.html">About</a>
