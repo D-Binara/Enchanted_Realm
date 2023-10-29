@@ -18,16 +18,16 @@ class Header extends HTMLElement {
                             <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Link.html">Explore</a>
+                            <a class="nav-link" href="explore.html">Explore</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="Link2.html">Spells & Potions</a>
+                            <a class="nav-link " href="Spells%20and%20Potions.html">Spells & Potions</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="Link.html">Creatures</a>
+                            <a class="nav-link " href="Creatures.html">Creatures</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="Link.html">About</a>
+                            <a class="nav-link " href="explore.html">About</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
