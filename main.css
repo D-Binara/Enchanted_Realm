@@ -28,72 +28,41 @@ body {
     /*display: flex;*/
     height: 100vh;
     width: 100%;
+    font-family: Arial, sans-serif;
 }
 
 
-/* CARD */
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
-
-
-.container  {
-    position:absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    height: 400px;
-    width: 600px;
-    background: #f2f2f2;
-    overflow: hidden;
-    border-radius: 20px;
-    cursor: pointer;
-    box-shadow: 0 0 20px 8px #d0d0d0;
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.content {
-    position:absolute;
-    color: black;
-    padding: 40px;
-    font-family: 'Merriweather', serif;
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
 
-
-h3 {
-    font-weight: 300;
+nav ul {
+    list-style: none;
 }
 
-.flap {
-    width: 100%;
-    height: 100%;
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-.flap::before {
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 50%;
-    background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg") #ffffff;
-    background-position: 100px;
-    background-repeat: no-repeat;
-    transition: 1s;
+main {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
 }
 
-.flap::after {
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 50%;
-    right: 0;
-    background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg") #ffffff;
-    background-position: -200px;
-    background-repeat: no-repeat;
-    transition: 1s;
-}
-
-.container:hover .flap::after {
-    transform: translatex(450px);
-}
-
-.container:hover .flap::before{
-    transform: translatex(-450px);
+a {
+    color: #fff;
+    text-decoration: none;
 }
