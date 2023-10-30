@@ -12,7 +12,7 @@ class Footer extends HTMLElement {
                     <li class="nav-item"><a href="Creatures.html" class="nav-link px-2 text-muted">Creatures</a></li>
                     <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
                 </ul>
-                <nav class="text-center text-muted">© 2022 Company, Inc</nav>
+                <nav class="text-center text-muted">© D-Binara</nav>
             </footer>
         `;
     }

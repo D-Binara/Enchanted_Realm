@@ -24,6 +24,33 @@ body {
             0 0 150px #0ff;
 }
 
+
+.neon2 {
+    color: #fff;
+    text-shadow:
+            0 0 5px #45A049,
+            0 0 10px #09fbd3,
+            0 0 20px #09fbd3,
+            0 0 40px #08f7fE,
+            0 0 80px #08f7fE,
+            0 0 90px #08f7fE,
+            0 0 100px #08f7fE,
+            0 0 150px #08f7fE;
+}
+
+h3 ,p{
+    color: #fff;
+    text-shadow:
+            0 0 5px #45A049,
+            0 0 10px #45A049,
+            0 0 20px #45A049,
+            0 0 40px #0077B6,
+            0 0 80px #0077B6,
+            0 0 90px #0077B6,
+            0 0 100px #0077B6,
+            0 0 150px #0077B6;
+}
+
 header {
     background-color: rgba(26, 21, 70, 0.95);
     color: #fff;
@@ -48,7 +75,7 @@ nav ul li {
 }
 
 section {
-    background-color: #fff;
+    background-color: #1a1546;
     margin: 20px;
     padding: 20px;
 }
